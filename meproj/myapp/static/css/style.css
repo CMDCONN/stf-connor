@@ -1,0 +1,12 @@
+body{
+    background-color: #f4f5fd;
+}
+
+nav{
+    background-color: #0c001d;
+    line-height: 400%;
+}
+
+.navbar-brand{
+    color: #f4f5fd !important;
+}
