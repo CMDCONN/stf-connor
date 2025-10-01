@@ -1,11 +1,12 @@
 body{
-    background-color: #04080F;
+    background-color: #292F36;
     font-family: "Montserrat", sans-serif;
     font-style: italic;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 nav{
-    background-color: #507DBC;
+    background-color: #4ECDC4;
     line-height: 400%;
 }
 
@@ -14,14 +15,13 @@ nav{
 }
 
 .background-colours{
-    background-color: #507DBC;
+    background-color: #247f79;
 }
 
 
 #spinner {
     width: 200px;
     height: 200px;
-    border-radius: 50%; /* Make it circular if the image is square */
 }
 
 @keyframes spin {
@@ -35,4 +35,14 @@ nav{
 
 .spin-animation {
   animation: spin 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+#boxes{
+    animation: fadeIn 1s ease-in-out;
 }
