@@ -1,14 +1,38 @@
 body{
-    background-color: #f4f5fd;
+    background-color: #04080F;
     font-family: "Montserrat", sans-serif;
     font-style: italic;
 }
 
 nav{
-    background-color: #0c001d;
+    background-color: #507DBC;
     line-height: 400%;
 }
 
-.navbar-brand{
+.navbar-brand, .abm-color{
     color: #f4f5fd !important;
+}
+
+.background-colours{
+    background-color: #507DBC;
+}
+
+
+#spinner {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make it circular if the image is square */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-animation {
+  animation: spin 1.2s ease-in-out forwards;
 }
