@@ -1,12 +1,76 @@
 body{
-    background-color: #f4f5fd;
+    background-color: #292F36;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 nav{
-    background-color: #0c001d;
+    background-color: #4ECDC4;
     line-height: 400%;
 }
 
-.navbar-brand{
-    color: #f4f5fd !important;
+.navbar-brand, .abm-color{
+    color: #5e3e85 !important;
+}
+
+.background-colours{
+    background-color: #247f79;
+}
+
+
+#spinner {
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-animation {
+  animation: spin 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+#boxes {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#abam{
+    animation: fadeIn 1.9s ease-in-out;
+}
+
+svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.svg-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.svg-background svg {
+    width: 100%;
+    height: 100%;
 }
