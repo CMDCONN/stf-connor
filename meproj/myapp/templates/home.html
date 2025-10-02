@@ -18,14 +18,20 @@
     </head>
     
     <body>
-    <nav class="navbar navbar-expand-lg px-4" id="nav"> 
-        <a class="navbar-brand" href="#"><img src="../static/assets/88324608.png" class="spin" style="width: 75px; height: 75px;" id="spinner"></a>
+    <nav class="navbar navbar-expand-lg px-4 rounded-bottom" id="nav"> 
+        <a class="navbar-brand" href="#"><img src="../static/images/88324608.webp" class="spin" style="width: 75px; height: 75px;" id="spinner"></a>
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a href="#" class="nav-link" style="color: white;">Contact</a>
             </li>
             <li class="nav-item ">
                 <a href="#" class="nav-link" style="color: white;">My Company</a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link" style="color: white;">My PC</a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link" style="color: white;">My Smile</a>
             </li>
         </ul>
     </nav>
@@ -65,17 +71,19 @@
             <path fill="#00f5d4" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
         </svg>
     </div>
+    <!--This SVG code was not mine, nor was it my art-->
+    <!--Dont have the time to make a javascript file to change the colours though-->
 
     <div class="container mt-3" id="frontPageBoxes">
         <div class="row">
             <div class="col">
-                <div class="mt-4 p-5 background-colours text-white rounded" style="height: 15rem;" id="boxes">
+                <div class="mt-4 p-5 text-white boxes rounded" style="height: 15rem;">
                     <h1>Powerlifting</h1> 
                     <p>Since September 2022 i've been part of many groups and stages of powerlifters and bodybuilders and competed on local shows on several occasiaons</p> 
                 </div>
             </div>
             <div class="col">
-                <div class="mt-4 p-5 background-colours text-white rounded" style="height: 15rem;" id="boxes">
+                <div class="mt-4 p-5 text-white boxes rounded" style="height: 15rem;">
                     <h1>Dogs</h1> 
                     <p>I have 2 dogs that i love so so much, Barlie and Hops unfortunately they live back at home with my parents</p> 
                 </div>
@@ -83,13 +91,13 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="mt-4 p-5 background-colours text-white rounded" style="height: 15rem;" id="boxes">
+                <div class="mt-4 p-5 text-white boxes rounded" style="height: 15rem;">
                     <h1>Uni of staffs NFL</h1> 
                     <p>Recently joined the american football team for staffs</p> 
                 </div>
             </div>
             <div class="col">
-                <div class="mt-4 p-5 background-colours text-white rounded" style="height: 15rem;" id="boxes">
+                <div class="mt-4 p-5 text-white boxes rounded" style="height: 15rem;">
                     <h1>Bouldering/Rock Climbing</h1> 
                     <p>Along side the nfl stuff i also climb with our bouldering society</p> 
                 </div>
@@ -97,12 +105,17 @@
         </div>
     </div>
     <br>
+
+    
     <div class="d-flex justify-content-center" id="abam">
+        <b><p>Light --></p></b>
         <label class="switch">
             <input type="checkbox" onclick="darkMode()">
             <span class="slider round"></span>
         </label>
+        <b><p><-- Dark</p></b>
     </div>
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

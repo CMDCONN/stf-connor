@@ -1,3 +1,5 @@
+// Got this spinner code from another project
+
 const spinner = document.getElementById('spinner');
 
 spinner.addEventListener('mouseenter', () => {
@@ -9,6 +11,5 @@ spinner.addEventListener('mouseenter', () => {
 spinner.addEventListener('animationend', () => {
   spinner.classList.remove('spin-animation');
 });
-
 
 
