@@ -41,7 +41,7 @@ python manage.py runserver
 ```
 ### (or)
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 Open your browser and go to `http://127.0.0.1:8000` or `http://localhost:8000` once it's hosted, hope you like it!
 
