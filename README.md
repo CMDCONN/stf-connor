@@ -17,8 +17,6 @@ pip install -r requirements.txt
 if any errors with this step try (depending on python version pathed):
 ```bash
 python -m pip install -r requirements.txt
-```
-```bash
 python3 -m pip install -r requirements.txt
 ```
 
