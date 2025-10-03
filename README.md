@@ -21,14 +21,15 @@ python -m pip install -r requirements.txt
 python3 -m pip install -r requirements.txt
 ```
 
-### 3. Apply migrations (make sure you are in the same directory as the manage.py file)
+### 3. Set up environment variables
 
+Using the .env.example file as a template, create a .env file in its place, to generate a new key simply run this:
 ```bash
-python manage.py migrate
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
-### (or)
-```bash
-python3 manage.py migrate
+Then copy the generated key into your .env file like so:
+
+```SECRET_KEY=your_generated_key_here
 ```
 
 ### 4. Run the development server
