@@ -31,21 +31,33 @@ nav.dark-mode {
   color: white;
   transition: color 500ms ease;
 }
-nav{
-  position: fixed;
+nav {
+  position: sticky;
   line-height: 400%;
   background-color: var(--nav-bg);
   transition: background-color 500ms ease;
 }
 
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/@media */
 
-@media (width < 1919px) {
-  nav {
-    line-height: normal;
+
+/*Some of this @media is written by ai
+The z-index and line height change was done by ai and so was the padding bottom body
+The idea for @media came from the @media entry shown below as some of the code is from that site*/
+
+/* On small screens, stick to bottom instead */
+@media (max-width: 768px) {
+  nav, .navbar {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+    z-index: 1000; /* ensure it’s above other content */
+    line-height: 200%;
+  }
+  body {
+    padding-bottom: 300px; /* match or slightly exceed the navbar’s height */
   }
 }
-
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media */
 
 .boxes{
