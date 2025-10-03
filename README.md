@@ -23,16 +23,22 @@ python3 -m pip install -r requirements.txt
 
 ### 3. Set up environment variables
 
-Using the .env.example file as a template, create a .env file in its place, to generate a new key simply run this:
+The env example file can be found at: `/meproj/.env.example`
+Using the .env.example file as a template, create an .env file in its place, to generate a new key run this:
+Dont forget that if you're using python3 replace python with python3
 ```bash
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
-Then copy the generated key into your .env file like so:
+
+
+Then copy the generated key into your .env.example file like so:
 
 ```
 SECRET_KEY=your_generated_key_here
 ```
 Then remove the .example from the .env.example file name.
+
+it should now be named `.env`
 
 ### 4. Run the development server
 
