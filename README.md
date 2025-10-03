@@ -32,6 +32,7 @@ Then copy the generated key into your .env file like so:
 ```
 SECRET_KEY=your_generated_key_here
 ```
+Then remove the .example from the .env.example file name.
 
 ### 4. Run the development server
 
@@ -50,4 +51,4 @@ You may use live-server, a vscode extention to open the file in the directory:
 /meproj/myapp/templates/home.html
 ```
 
-
+And with any luck one of those methods will work
