@@ -19,5 +19,5 @@ Download Live-Serer extension for VSCode
 ### 3. Open the project in VSCode
 
 ```bash
-Run with Live-Server
+Run home.html with Live-Server
 ```
