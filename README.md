@@ -1,6 +1,7 @@
 ## How to run local
 
 Follow these steps to get the project up and running locally.
+When you're marking please ignore the tester.html and tester.css files!
 
 ### 1. Clone the repository
 
