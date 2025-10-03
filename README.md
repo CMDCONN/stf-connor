@@ -21,3 +21,6 @@ Download Live-Serer extension for VSCode
 ```bash
 Run home.html with Live-Server
 ```
+
+### Alternative: Open the HTML file directly in your web browser
+I think this works fine but as it's using some online hosted css and fonts it might not work perfectly.
