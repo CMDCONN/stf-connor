@@ -40,5 +40,12 @@ python manage.py runserver
 ```bash
 python manage.py runserver
 ```
-
 Open your browser and go to `http://127.0.0.1:8000` or `http://localhost:8000` once it's hosted, hope you like it!
+
+### If the first method doesn't work:
+You may use live-server, a vscode extention to open the file in the directory:
+```bash
+/meproj/myapp/templates/home.html
+```
+
+
