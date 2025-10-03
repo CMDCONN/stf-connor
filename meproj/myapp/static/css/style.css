@@ -23,7 +23,14 @@ body.dark-mode {
 nav.dark-mode {
   background-color: #247f79;
 }
-
+#lightDark{
+  color: var(--text);
+  transition: color 500ms ease;
+}
+#lightDark.dark-mode{
+  color: white;
+  transition: color 500ms ease;
+}
 nav{
   position: fixed;
   line-height: 400%;
