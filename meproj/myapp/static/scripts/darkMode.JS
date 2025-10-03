@@ -13,4 +13,11 @@ function darkMode(){
     middleBoxes2.classList.toggle("dark-mode");
     var middleBoxes3 = document.getElementsByClassName("boxes")[3];
     middleBoxes3.classList.toggle("dark-mode");
+
+    var textIndicator = document.getElementById("lightDark");
+    if (textIndicator.innerHTML == "Light mode") {
+        textIndicator.innerHTML = "Dark mode";
+    } else {
+        textIndicator.innerHTML = "Light mode";
+    }
 }

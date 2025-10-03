@@ -109,6 +109,7 @@ svg {
 }
 
 /* From here to a bit down i got this css off a site */
+/* The color animations are mine */
 /* https://www.w3schools.com/howto/howto_css_switch.asp */
 
 .switch {
@@ -151,11 +152,11 @@ svg {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #292F36;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #e6e6e7;
 }
 
 input:checked + .slider:before {
