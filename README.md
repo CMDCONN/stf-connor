@@ -29,7 +29,8 @@ python -c "from django.core.management.utils import get_random_secret_key; print
 ```
 Then copy the generated key into your .env file like so:
 
-```SECRET_KEY=your_generated_key_here
+```
+SECRET_KEY=your_generated_key_here
 ```
 
 ### 4. Run the development server
